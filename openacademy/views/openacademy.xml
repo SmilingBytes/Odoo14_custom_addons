@@ -116,7 +116,7 @@
         </record>
 
         <!-- session tree/list view -->
-        <!-- <record model="ir.ui.view" id="session_tree_view">
+        <record model="ir.ui.view" id="session_tree_view">
             <field name="name">session.tree</field>
             <field name="model">openacademy.session</field>
             <field name="arch" type="xml">
@@ -125,7 +125,7 @@
                     <field name="course_id"/>
                 </tree>
             </field>
-        </record> -->
+        </record>
 
 
 
