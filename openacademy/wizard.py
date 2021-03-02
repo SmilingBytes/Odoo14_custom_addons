@@ -13,7 +13,7 @@ class Wizard(models.TransientModel):
     session_ids = fields.Many2many('openacademy.session', string="Sessions", required=True, default=_default_sessions)
 
 
-    session_id = fields.Many2one('openacademy.session', string="Session", required=True, default=_default_session)
+    session_id = fields.Many2one('openacademy.session', string="Session", required=True, default=_default_sessions)
     attendee_ids = fields.Many2many('res.partner', string="Attendees")
 
     def subscribe(self):
