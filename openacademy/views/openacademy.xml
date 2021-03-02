@@ -251,5 +251,4 @@
             <field name="binding_model_id" ref="model_openacademy_session"/>
         </record>
 
-
 </odoo>

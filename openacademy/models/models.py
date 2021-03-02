@@ -130,11 +130,6 @@ class Session(models.Model):
                 raise exceptions.ValidationError("A session's instructor can't be an attendee")
 
 
-
-    
-
-
-
 # class openacademy(models.Model):
 #     _name = 'openacademy.openacademy'
 #     _description = 'openacademy.openacademy'
